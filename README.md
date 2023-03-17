@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://nav-dropdown.netlify.app/)
-- Live Site URL: [Add live site URL here](https://github.com/Faith-okereke/nav-drop.git)
+- Solution URL: [https://nav-dropdown.netlify.app/](https://nav-dropdown.netlify.app/)
+- Live Site URL: [https://github.com/Faith-okereke/nav-drop.git](https://github.com/Faith-okereke/nav-drop.git)
 
 ### Built with
 
