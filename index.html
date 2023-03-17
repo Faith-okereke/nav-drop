@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.svg" alt="logo" />
+      <img onclick="openNav()" class="hamburger" src="images/icon-menu.svg" alt="">
+      <div id="all">
+        <div id="right-header">
+          <img onclick="closeNav()" id="close" src="images/icon-close-menu.svg" alt="">
+        <ul>
+          <div  onclick="openFirstOne()" id="feature" class="feature">
+            <li><a href="#">Features</a></li>
+            <img id="image" src="images/icon-arrow-down.svg" alt="">
+          </div>
+          <div id="content" class="content">
+            <div class="content-flex">
+              <img src="images/icon-todo.svg" alt="">
+              <p>Todo List</p>
+            </div>
+              <div class="content-flex">
+                <img src="images/icon-calendar.svg" alt="">
+              <p>Calendar</p>
+            </div>
+              <div class="content-flex">
+                <img src="images/icon-reminders.svg" alt="">
+              <p>Reminders</p>
+            </div>
+            <div class="content-flex">
+              <img src="images/icon-planning.svg" alt="">
+            <p>Plannings</p>
+            </div>
+            </div>
+          <div onclick="openSecondOne() "  class="company">
+            <li><a href="#">Company</a></li>
+            <img id="image-2" src="images/icon-arrow-down.svg" alt="">
+          </div>
+          <div id="content-2">
+            <p>History</p>
+            <p>Our Team</p>
+            <p>Blog</p>
+          </div>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+        <div class="log-button">
+          <a href="#">Login</a>
+          <button>Register</button>
+        </div>
+      </div>
+      </div>
+    </header>
+    <main>
+      <div class="first-main">
+        <h1>Make remote work</h1>
+        <p>
+          Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p> 
+        <button>Learn more</button>
+        <div class="tiny-images">
+          <img src="images/client-databiz.svg" alt="" />
+          <img src="images/client-audiophile.svg" alt="" />
+          <img src="images/client-meet.svg" alt="" />
+          <img src="images/client-maker.svg" alt="" />
+        </div>
+      </div>
+      <img class="big" src="images/image-hero-desktop.png" alt="" />
+      <img class="big-mobile" src="images/image-hero-mobile.png" alt="">
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Faith Okereke</a>.
+    </div>
+  </body>
+</html>
