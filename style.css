@@ -275,6 +275,7 @@ a:hover{
         justify-content:initial;
         padding-top: 80px;
         margin: 0;
+        padding-left: 10px;
     }
     #all{
         height: 100%;
@@ -308,7 +309,8 @@ a:hover{
     }
     .content-flex{
         padding-top: 2px;
-        gap: 2px;
+        gap: 1px;
+        justify-content: left;
     
     }
     #content-2{
