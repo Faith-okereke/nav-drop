@@ -159,7 +159,7 @@ a:hover{
 }
 #content-2{
     padding: 20px;
-    /* background-color: hsl(0, 0%, 98%); */
+    background-color: hsl(0, 0%, 98%);
     position: absolute;
     z-index: 1;
     top: 10%;
