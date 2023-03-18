@@ -130,7 +130,7 @@ a:hover{
 }
 .content{
     padding: 15px;
-    /* background-color: hsl(0, 0%, 98%); */
+    background-color: hsl(0, 0%, 98%);
     position: absolute;
     top: 10%;
     left: 14%;
@@ -139,7 +139,7 @@ a:hover{
     -moz-box-shadow: 3px 8px 28px 1px rgba(166,164,166,0.52);
     box-shadow: 3px 8px 28px 1px rgba(166,164,166,0.52);
     border-radius: 6px;
-    z-index: 99;
+    z-index: 1;
 
 }
 .content-flex{
@@ -161,7 +161,7 @@ a:hover{
     padding: 20px;
     /* background-color: hsl(0, 0%, 98%); */
     position: absolute;
-    z-index: 2;
+    z-index: 1;
     top: 10%;
     left: 23%;
     display: none;
